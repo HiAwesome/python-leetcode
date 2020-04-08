@@ -14,7 +14,7 @@ class Node:
 
 
 class Solution:
-    def cloneGraph(self, node: Node) -> Node:
+    def cloneGraph(self, start_node: Node) -> Node:
 
         lookup = {}
 
@@ -33,4 +33,4 @@ class Solution:
 
             return clone
 
-        return dfs(node)
+        return dfs(start_node)
