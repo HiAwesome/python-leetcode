@@ -17,7 +17,6 @@ class MyStack:
             # 反转前面 n-1 个元素，栈顶元素始终保留在队首
             self.data.append(self.data.pop(0))
 
-
     def pop(self) -> int:
         return self.data.pop(0)
 
