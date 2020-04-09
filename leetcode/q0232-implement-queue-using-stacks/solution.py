@@ -28,5 +28,5 @@ class MyQueue:
 
         return self.b[-1]
 
-    def empty(self) -> int:
+    def empty(self) -> bool:
         return not self.a and not self.b
